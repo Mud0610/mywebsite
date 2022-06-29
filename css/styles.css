@@ -1,0 +1,179 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+
+}
+a{
+    font-size: 1.2rem;
+}
+
+.soc {
+    size: 35px;
+}
+
+.titleimage {
+    margin-top: 7%;
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.fld {
+    padding: 3% 15%;
+    padding-bottom: 19%;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.featbox {
+    text-align: center;
+    padding: 4.5%;
+}
+
+em{
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: "Montserrat-Bold-Bold";
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.ab{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-weight: 700;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.carousel-item {
+    padding: 3% 15%;
+}
+
+
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    padding: 3% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimage {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-colomn {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    em{
+        font-size: 0.9rem;
+    }
+    
+    .titleimage {
+        position: static;
+        transform: rotate(0deg);
+    }
+    .testimage{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    color: #fff;
+    text-align: center;
+    font-size: large;
+
+}
+
+.ctaa{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.bttn {
+    padding-top: 15%;
+    margin: 25px 15px;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social {
+    margin: 20px 10px;
+}
